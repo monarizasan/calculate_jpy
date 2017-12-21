@@ -10,6 +10,8 @@ mac-OSXで動作確認。pandasを利用しています。
 
 Poloniex用とBittrex用のスクリプトがあります。Bittrex用のスクリプトでは、日本円換算に"Opened"の時刻を利用しています。
 
+`git clone https://github.com/monarizasan/calculate_jpy.git`
+
 このリポジトリをgit cloneしたら、それぞれCSVファイルをダウンロードして同じフォルダ内に入れます。
 
 `python3 calculate_jpy_poloniex.py --file tradeHistory.csv`
